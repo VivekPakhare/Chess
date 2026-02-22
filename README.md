@@ -9,7 +9,7 @@ A real-time chess game controlled by hand gestures using computer vision. Move c
 - Real-time camera feed and board overlay
 
 ## Developer / Creator
-- tubakhxn
+- tubakhxn :)
 
 ## How to Fork
 1. Click the "Fork" button on the GitHub repository page.
@@ -48,4 +48,5 @@ A real-time chess game controlled by hand gestures using computer vision. Move c
 MIT License
 
 ---
-For questions or contributions, contact tubakhxn.
+
+
