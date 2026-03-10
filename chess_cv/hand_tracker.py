@@ -17,7 +17,11 @@ class HandTracker:
         mp_image = Image(image_format=ImageFormat.SRGB, data=rgb)
         result = self.detector.detect(mp_image)
         if result.hand_landmarks and len(result.hand_landmarks) > 0:
-            return result.hand_landmarks[0], None
+            # Return handedness label if available ("Left" / "Right")
+            hand_label = None
+            if result.handedness and len(result.handedness) > 0:
+                hand_label = result.handedness[0][0].category_name  # "Left" or "Right"
+            return result.hand_landmarks[0], hand_label
         return None, None
 
     def get_index_fingertip(self, hand_landmarks, frame_shape):
