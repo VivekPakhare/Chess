@@ -1,5 +1,7 @@
 # Hand Gesture Chess ♟️
 
+[![LinkedIn](https://img.shields.io/badge/Share%20on-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FVivekPakhare%2FChess)
+
 A real-time chess game controlled by hand gestures using computer vision. Move chess pieces on a virtual board by pinching and dragging with your fingers — detected via webcam and MediaPipe. Play against **Stockfish** AI with adjustable difficulty.
 
 ## Features
